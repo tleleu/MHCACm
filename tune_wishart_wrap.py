@@ -10,6 +10,8 @@ import time
 import os
 import generate_dWPE
 
+import matplotlib.pyplot as plt
+
 def tune_wishart(folder_name,instance,hyperparams,PARAM_NAMES,x,flags,tunerparams,data):
 
     global count, fit_est
